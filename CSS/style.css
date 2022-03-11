@@ -13,5 +13,10 @@ h2{
 .caixa{
     background: #d5e5f7;
     width: 100%;
-    height: 700px;
+    height: 500px;
+    margin-top: 40px;
+}
+
+.imagem{
+    margin-top: -30px;
 }
