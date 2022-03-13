@@ -14,9 +14,16 @@
     src: url('../Fonts/Impacted.ttf') format('opentype');
 }
 
+@font-face {
+    font-family: 'impact';
+    src: url('../Fonts/impact.ttf') format('opentype');
+}
+
+
 /********************************/
 /******** CORPO DA PAGINA *******/
 /********************************/
+
 
 body{
 background: url(../imagens/),
@@ -24,6 +31,13 @@ url(../imagens/),
 linear-gradient(50deg,#9bf0e1,#7c26f8);
 background-attachment: fixed; 
 font-family: "Valorant", sans-serif; 
+}
+
+.bg-black{
+    height: 80px;
+    padding: 24px;
+    background: #000;
+    
 }
 
 /********************************/
@@ -38,16 +52,44 @@ font-family: "Valorant", sans-serif;
     align-items: center;
     padding: 15px;
 } 
+.cardSobreposi{
+    margin-top: 270px;
+}
 
 .cardNoticias{
-    height: 500px;
+    height: 340px;
     align-items: center;
    
 }
 
+.cardNoticias:hover{
+    height: 500px;
+    align-items: center;
+    text-decoration: none;
+   
+}
+
+.cardNoticias span{
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #d9014e;
+}
+
 .cardNoticias p{
-    text-align: center;
-    padding: 15px;
+    margin-left: 20px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #000;
+}
+
+.cardNoticias h5{
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    color: #3a3a3a;
 }
 
 
@@ -55,8 +97,47 @@ font-family: "Valorant", sans-serif;
 /********************************/
 /**** Formatação de texto *******/
 /********************************/
+.textoDisrup {
+    margin-top: 340px;
+}
+
+.textoDisrup span{
+    padding: 20px;
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Roboto';
+}
+
+.textoDisrup h2{
+    font-size: 90px;
+    padding: 20px;
+    color: #fff;
+    font-family: 'impact';
+}
+
+.btn-ato{
+    display: inline-block;
+    width: 300px;
+    height: 60px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 20px;
+    font-family: "Roboto", Arial, sans-serif;
+    background: #d9014e;
+    color: #fff;
+}
+
+.btn-ato:hover{
+    color: #fff;
+    text-decoration: none;
+    background: #3a3a3a;
+}
+
+
 .Noticias {
-    margin-top: 100px;
+    position: absolute;
+    margin-top: 160px;
     font-size: 95px;
     color:#d9014e;
     font-family: 'Impact';
@@ -78,7 +159,7 @@ font-family: "Valorant", sans-serif;
 }
 
 .p-titulo{
-    margin-top: 10em;
+    margin-top: 24em;
     margin-bottom: 2em;
     font-size: 15px;
     text-align: center;
@@ -99,7 +180,7 @@ font-family: "Valorant", sans-serif;
 }
 
 .btn-titulo:hover{
-    background: #191f3b;
+    background: #3a3a3a;
     color: #fff;
     text-decoration: none;
     transition:  0.3s;
@@ -119,8 +200,9 @@ font-family: "Valorant", sans-serif;
 .caixa-titulo{
     
     width: 100%;
-    height: 640px;
-    background: url(../imagens/jettAnimação.gif) ;
+    height: 840px;
+    margin-top: -150px;
+    background: url(../Movie/animationV.gif) no-repeat;
     /*background: #181413; */
    
 }
@@ -135,11 +217,16 @@ font-family: "Valorant", sans-serif;
     
 }
 
+.caixa-ato{
+    width: 100%;
+    height: 800px;
+    background: url(../imagens/yoru-bg2.jpg) no-repeat ;
+}
+
 .caixa-agentes{
     
     width: 100%;
     height: 500px;
-    
     background: #d5e5f7;
 }
 
