@@ -6,8 +6,12 @@
 
 @font-face {
     font-family: 'Valorant';
-    src: url('../Fonts/Valorant\ Font.ttf') format('opentype');
+    src: url('../Fonts/Valorant Font.ttf') format('opentype');
     
+}
+@font-face {
+    font-family: 'Impact';
+    src: url('../Fonts/Impacted.ttf') format('opentype');
 }
 
 /********************************/
@@ -51,6 +55,14 @@ font-family: "Valorant", sans-serif;
 /********************************/
 /**** Formatação de texto *******/
 /********************************/
+.Noticias {
+    margin-top: 100px;
+    font-size: 95px;
+    color:#d9014e;
+    font-family: 'Impact';
+}
+
+
 
 .conteudoTitulo{
     text-align: center;
@@ -71,7 +83,7 @@ font-family: "Valorant", sans-serif;
     font-size: 15px;
     text-align: center;
     color: #fff;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Roboto", Arial, sans-serif;
 }
 
 .btn-titulo{
@@ -94,15 +106,9 @@ font-family: "Valorant", sans-serif;
    
 }
 
-.animacao{
-   
-}
 
 
-h2{
-    margin-top: 500px;
-    
-}
+
 
 /********************************/
 /********** Caixas BG ***********/
@@ -114,7 +120,7 @@ h2{
     
     width: 100%;
     height: 640px;
-    background: url(../imagens/valorant-bg.jpg)  ;
+    background: url(../imagens/jettAnimação.gif) ;
     /*background: #181413; */
    
 }
@@ -122,9 +128,11 @@ h2{
 .caixa-noticias{
     
     width: 100%;
+    margin-top: -150px;
     height: 800px;
     padding: 100px;
-    background: #d5e5f7;
+    background: url(../imagens/bg-noticias.png) ;
+    
 }
 
 .caixa-agentes{
