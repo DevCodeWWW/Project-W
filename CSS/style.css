@@ -35,7 +35,7 @@ font-family: "Valorant", sans-serif;
 
 .bg-black{
     height: 80px;
-    padding: 24px;
+    padding: 20px;
     background: #000;
     
 }
@@ -156,6 +156,7 @@ font-family: "Valorant", sans-serif;
     font-size: 130px;
     margin-top: -15px;
     color: #fff;
+    opacity: 0.95;
 }
 
 .p-titulo{
@@ -170,11 +171,11 @@ font-family: "Valorant", sans-serif;
 .btn-titulo{
     display: inline-block;
     width: 250px;
-    height: 60px;
-    padding: 23px;
-    font-size: 10px;
+    height: 55px;
+    padding: 19px;
+    font-size: 13px;
     font-family: "Roboto", Arial, sans-serif;
-    margin-top: 10px;
+    margin-top: 6px;
     background: #d9014e;
     color: #fff;
 }
