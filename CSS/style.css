@@ -115,26 +115,6 @@ font-family: "Valorant", sans-serif;
     font-family: 'impact';
 }
 
-.btn-ato{
-    display: inline-block;
-    width: 300px;
-    height: 60px;
-    padding-top: 20px;
-    text-align: center;
-    font-size: 14px;
-    margin-left: 20px;
-    font-family: "Roboto", Arial, sans-serif;
-    background: #d9014e;
-    color: #fff;
-}
-
-.btn-ato:hover{
-    color: #fff;
-    text-decoration: none;
-    background: #3a3a3a;
-}
-
-
 .Noticias {
     position: absolute;
     margin-top: 160px;
@@ -142,8 +122,6 @@ font-family: "Valorant", sans-serif;
     color:#d9014e;
     font-family: 'Impact';
 }
-
-
 
 .conteudoTitulo{
     text-align: center;
@@ -168,26 +146,26 @@ font-family: "Valorant", sans-serif;
     font-family: "Roboto", Arial, sans-serif;
 }
 
-.btn-titulo{
-    display: inline-block;
-    width: 250px;
-    height: 55px;
-    padding: 19px;
-    font-size: 13px;
-    font-family: "Roboto", Arial, sans-serif;
-    margin-top: 6px;
-    background: #d9014e;
-    color: #fff;
+.textSomos{
+    font-family: 'impact';
+    font-size: 90px;
+    color: #000;
 }
 
-.btn-titulo:hover{
-    background: #3a3a3a;
-    color: #fff;
-    text-decoration: none;
-    transition:  0.3s;
+.contBox h5{
+    font-family: 'Roboto';
+    font-size: 20px;
+    
+
+} 
+.contBox span{
+    font-family: 'Roboto';
    
 }
 
+.contBox{
+    margin-left: 30px;
+}
 
 
 
@@ -249,4 +227,78 @@ font-family: "Valorant", sans-serif;
 
 .media-link{
     margin-left: 20px;
+}
+
+.media-iframe iframe{
+    width: 500px;
+    margin-left: 1px;
+}
+
+.media-div{
+    width: 500px;
+    margin-left: 200px;
+}
+
+/********************************/
+/********** Buttons ***********/
+/********************************/
+
+
+.btn-ato{
+    display: inline-block;
+    width: 300px;
+    height: 60px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 20px;
+    font-family: "Roboto", Arial, sans-serif;
+    background: #d9014e;
+    color: #fff;
+}
+
+.btn-ato:hover{
+    color: #fff;
+    text-decoration: none;
+    background: #3a3a3a;
+}
+
+.btn-titulo{
+    display: inline-block;
+    width: 250px;
+    height: 55px;
+    padding: 19px;
+    font-size: 13px;
+    font-family: "Roboto", Arial, sans-serif;
+    margin-top: 6px;
+    background: #d9014e;
+    color: #fff;
+}
+
+.btn-titulo:hover{
+    background: #3a3a3a;
+    color: #fff;
+    text-decoration: none;
+    transition:  0.3s;
+   
+}
+
+.btn-somos{
+    display: inline-block;
+    width: 300px;
+    height: 60px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-family: "Roboto", Arial, sans-serif;
+    background: #d9014e;
+    color: #fff;
+}
+
+.btn-somos:hover{
+    color: #fff;
+    text-decoration: none;
+    background: #3a3a3a;
 }
