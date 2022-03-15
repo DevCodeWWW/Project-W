@@ -169,7 +169,12 @@ font-family: "Valorant", sans-serif;
 } 
 .contBox span{
     font-family: 'Roboto';
-   
+    font-size: 15px;
+    margin-top: 60px;
+}
+
+.contBox{
+    margin-left: 150px;
 }
 
 .text-agentes{
@@ -260,7 +265,7 @@ font-family: "Valorant", sans-serif;
 }
 
 .media-iframe iframe{
-    width: 500px;
+    width: 600px;
     margin-left: 1px;
 }
 
@@ -321,7 +326,7 @@ font-family: "Valorant", sans-serif;
     text-align: center;
     font-size: 14px;
     margin-right: 20px;
-    margin-top: 20px;
+    margin-top: 50px;
     font-family: "Roboto", Arial, sans-serif;
     background: #d9014e;
     color: #fff;
