@@ -204,7 +204,7 @@ font-family: "Valorant", sans-serif;
     height: 840px;
     margin-top: -150px;
     background: url(../Movie/animationV.gif) repeat;
-    
+    background-size: cover;
    
 }
 
@@ -215,7 +215,8 @@ font-family: "Valorant", sans-serif;
     height: 800px;
     padding: 100px;
     background: url(../imagens/bg-noticias.png) ;
-    
+    background-size: cover;
+ 
 }
 
 .caixa-ato{
@@ -223,6 +224,7 @@ font-family: "Valorant", sans-serif;
     width: 100%;
     height: 800px;
     background-image: url(/Imagens/yoru-bg2.jpg) ;
+    background-size: cover;
 }
 
 .caixa-agentes{
