@@ -199,17 +199,17 @@ font-family: "Valorant", sans-serif;
 
 
 .caixa-titulo{
-    
+    display: flex;
     width: 100%;
     height: 840px;
     margin-top: -150px;
-    background: url(../Movie/animationV.gif) no-repeat;
-    /*background: #181413; */
+    background: url(../Movie/animationV.gif) repeat;
+    
    
 }
 
 .caixa-noticias{
-    
+    display: flex;
     width: 100%;
     margin-top: -150px;
     height: 800px;
@@ -219,21 +219,24 @@ font-family: "Valorant", sans-serif;
 }
 
 .caixa-ato{
+   
     width: 100%;
     height: 800px;
-    background: url(../imagens/yoru-bg2.jpg) no-repeat ;
+    background-image: url(/Imagens/yoru-bg2.jpg) ;
 }
 
 .caixa-agentes{
-    
+    display: flex;
     width: 100%;
     height: 500px;
     background: #d5e5f7;
 }
 
 .caixa-somos{
+    display: flex;
     width: 100%;
-    height:500px;
+    height:650px;
+    margin-top: -35px;
     background:#f3eae8;
 }
 
