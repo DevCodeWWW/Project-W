@@ -45,6 +45,17 @@ font-family: "Valorant", sans-serif;
     
 }
 
+footer{
+    position: absolute;
+    bottom: 100;
+    background-color: black;
+    color: #FFF;
+    width: 100%;
+    height: 100px;    
+    text-align: center;
+    line-height: 100px;
+}
+
 /********************************/
 /****** IMAGENS / CARD   ********/
 /********************************/
@@ -221,6 +232,13 @@ font-family: "Valorant", sans-serif;
     opacity: 0.8;
 }
 
+.text-footer{
+    text-align: center;
+    font-family: 'roboto';
+    margin-left: 80px;
+    
+}
+
 /********************************/
 /********** Caixas BG ***********/
 /********************************/
@@ -280,6 +298,19 @@ font-family: "Valorant", sans-serif;
     background-image: url(/Imagens/MAPS.png);
     background-size: cover;
 }
+
+.caixa-cont{
+    width: 100%;
+    height: 80px;
+    background:#282726;
+}
+
+.caixa-footer{
+    width: 100%;
+    height: 500px;
+    background:#000;
+}
+
 
 
 
